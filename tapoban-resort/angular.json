@@ -36,7 +36,8 @@
             "outputMode": "server",
             "ssr": {
               "entry": "src/server.ts"
-            }
+            },
+            "baseHref": "https://jasbirs-work.github.io/tapoban-resort/"
           },
           "configurations": {
             "production": {
