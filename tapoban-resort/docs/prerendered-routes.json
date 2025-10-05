@@ -1,0 +1,9 @@
+{
+  "routes": {
+    "/tapoban-resort": {},
+    "/tapoban-resort/about": {},
+    "/tapoban-resort/amenities": {},
+    "/tapoban-resort/contact": {},
+    "/tapoban-resort/gallery": {}
+  }
+}
