@@ -1,0 +1,7 @@
+:host{display:block}
+.amenities .grid{ display:grid; grid-template-columns:repeat(2,1fr); gap:1rem }
+.card{ background:#fff; padding:1rem; border-radius:10px; box-shadow:0 6px 18px rgba(9,30,15,0.06) }
+.card summary{ cursor:pointer; font-weight:600 }
+.coming{ background:linear-gradient(90deg,#e8f5e9,#f1f8e9); padding:1rem; border-radius:8px }
+
+@media(max-width:700px){ .amenities .grid{ grid-template-columns:1fr } }

@@ -1,0 +1,9 @@
+:host{display:block}
+.contact .cols{ display:flex; gap:1rem }
+.form{ display:flex; flex-direction:column; gap:0.5rem; flex:1 }
+.form input, .form textarea{ padding:0.65rem; border-radius:8px; border:1px solid #e6e6e6 }
+.form button{ background:#2e7d32; color:#fff; padding:0.6rem 0.9rem; border-radius:8px; border:0 }
+.contact-info{ width:320px; background:#fff; padding:1rem; border-radius:8px }
+.map{ height:200px; background:#e9e9e9; border-radius:8px; margin:0.5rem 0; display:flex; align-items:center; justify-content:center }
+
+@media(max-width:900px){ .contact .cols{ flex-direction:column } .contact-info{ width:100% } }

@@ -1,0 +1,9 @@
+:host{display:block}
+.parallax{ position:relative; height:40vh; background-size:cover; background-position:center; display:flex; align-items:center }
+.parallax .overlay{ position:absolute; inset:0; background:linear-gradient(180deg, rgba(0,0,0,0.25), rgba(0,0,0,0.25)) }
+.parallax .hero{ position:relative; color:#fff; padding:2rem; text-align:center }
+.story .cols{ display:flex; gap:1.25rem; margin-top:1rem }
+.story .owner{ background:#fff; padding:1rem; border-radius:10px; box-shadow:0 6px 18px rgba(9,30,15,0.06); text-align:center }
+.story img{ width:120px; height:120px; border-radius:50%; object-fit:cover }
+
+@media(max-width:800px){ .story .cols{ flex-direction:column } }

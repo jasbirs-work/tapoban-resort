@@ -1,0 +1,23 @@
+:host { display:block }
+.hero { position:relative; height:60vh; background-image:url('https://picsum.photos/1600/900?nature'); background-size:cover; background-position:center; display:flex; align-items:center; }
+.hero .overlay { position:absolute; inset:0; background:linear-gradient(180deg, rgba(16,76,40,0.35), rgba(0,0,0,0.25)); }
+.hero-content { position:relative; color:#fff; max-width:900px; margin:0 auto; text-align:center; padding:2rem; }
+.hero h1{ font-size:3rem; margin:0 0 0.5rem; font-family: 'Poppins', sans-serif }
+.hero .tag{ opacity:0.95 }
+.cta{ display:inline-block; margin-top:1rem; background:#2e7d32; color:#fff; padding:0.65rem 1rem; border-radius:8px; text-decoration:none }
+.container{ max-width:1100px; margin:2rem auto; padding:0 1rem }
+.highlights{ display:grid; grid-template-columns: repeat(4,1fr); gap:1rem }
+.highlights .card{ background:#fff; padding:1rem; border-radius:10px; box-shadow:0 6px 18px rgba(9,30,15,0.06); text-align:center }
+.welcome{ background:linear-gradient(180deg, rgba(255,255,255,0.7), rgba(255,255,255,0.9)); padding:1.25rem; border-radius:10px }
+.photos .grid{ display:grid; grid-template-columns: repeat(4,1fr); gap:0.5rem }
+.photos img{ width:100%; height:160px; object-fit:cover; border-radius:8px }
+
+@media (max-width:900px){
+  .highlights{ grid-template-columns: repeat(2,1fr) }
+  .photos .grid{ grid-template-columns: repeat(2,1fr) }
+}
+@media (max-width:520px){
+  .hero{ height:45vh }
+  .highlights{ grid-template-columns: 1fr }
+  .photos .grid{ grid-template-columns: 1fr }
+}

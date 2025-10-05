@@ -1,0 +1,10 @@
+<section class="container gallery">
+  <h2>Gallery</h2>
+  <div class="grid">
+    <img *ngFor="let img of images" loading="lazy" [src]="img" (click)="open(img)" alt="gallery image">
+  </div>
+
+  <div class="lightbox" *ngIf="selected" (click)="close()">
+    <img [src]="selected" alt="opened">
+  </div>
+</section>
