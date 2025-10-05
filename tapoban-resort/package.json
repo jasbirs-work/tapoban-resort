@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-  "deploy": "ng build --configuration production --base-href /tapoban-resort/ && node ./scripts/create-404.js && gh-pages -d dist/tapoban-resort",
+  "deploy": "ng build --configuration production --base-href /tapoban-resort/ && gh-pages -d dist/tapoban-resort",
     "serve:ssr:tapoban-resort": "node dist/tapoban-resort/server/server.mjs"
   },
   "prettier": {
