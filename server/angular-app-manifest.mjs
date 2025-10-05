@@ -2,7 +2,7 @@
 export default {
   bootstrap: () => import('./main.server.mjs').then(m => m.default),
   inlineCriticalCss: true,
-  baseHref: '/jasbirs-work.github.io/',
+  baseHref: '/tapoban-resort/',
   locale: undefined,
   routes: [
   {
@@ -10,51 +10,51 @@ export default {
     "preload": [
       "chunk-YDAQUZGN.js"
     ],
-    "route": "/jasbirs-work.github.io"
+    "route": "/tapoban-resort"
   },
   {
     "renderMode": 2,
     "preload": [
       "chunk-V43TIDHD.js"
     ],
-    "route": "/jasbirs-work.github.io/about"
+    "route": "/tapoban-resort/about"
   },
   {
     "renderMode": 2,
     "preload": [
       "chunk-7LUKLOSO.js"
     ],
-    "route": "/jasbirs-work.github.io/amenities"
+    "route": "/tapoban-resort/amenities"
   },
   {
     "renderMode": 2,
     "preload": [
       "chunk-OYEJUPNQ.js"
     ],
-    "route": "/jasbirs-work.github.io/gallery"
+    "route": "/tapoban-resort/gallery"
   },
   {
     "renderMode": 2,
     "preload": [
       "chunk-MLY7DC26.js"
     ],
-    "route": "/jasbirs-work.github.io/contact"
+    "route": "/tapoban-resort/contact"
   },
   {
     "renderMode": 2,
-    "redirectTo": "/jasbirs-work.github.io",
-    "route": "/jasbirs-work.github.io/**"
+    "redirectTo": "/tapoban-resort",
+    "route": "/tapoban-resort/**"
   }
 ],
   entryPointToBrowserMapping: undefined,
   assets: {
-    'index.csr.html': {size: 5615, hash: '16cc6eb16cd64408faa3390734e8c2cf2e73abb1364b4824c25ecd3270426521', text: () => import('./assets-chunks/index_csr_html.mjs').then(m => m.default)},
-    'index.server.html': {size: 6128, hash: 'bd71f7d7ecafcf89e4b979a2c147e7956bfc47ea1a506b98e82a65341c1cdc26', text: () => import('./assets-chunks/index_server_html.mjs').then(m => m.default)},
-    'index.html': {size: 18630, hash: 'd2f6502df24ecf79afcd3c7f2d8b184e03ab6bf2e9f2d2c4ab0c2b3a2ac383e3', text: () => import('./assets-chunks/index_html.mjs').then(m => m.default)},
-    'contact/index.html': {size: 16748, hash: '54405e9b281162acf7a1f409fcf3ae7998b318adc16ba45b9a1e0d2653e3e95b', text: () => import('./assets-chunks/contact_index_html.mjs').then(m => m.default)},
-    'amenities/index.html': {size: 16369, hash: '9bdd6005c9efb44924f3c1d7585d05c6c8219a73d18f62feccba9c0300c33804', text: () => import('./assets-chunks/amenities_index_html.mjs').then(m => m.default)},
-    'about/index.html': {size: 16822, hash: 'd5b2d9f5e2c8e0f86ce5807e84dd8e7699777638759695dcc0cb7dea57b5bcfd', text: () => import('./assets-chunks/about_index_html.mjs').then(m => m.default)},
-    'gallery/index.html': {size: 16467, hash: 'd6678a9039c356fc938d6d8379de9ad64da6932c67a1e906d505bf8c7077e66e', text: () => import('./assets-chunks/gallery_index_html.mjs').then(m => m.default)},
+    'index.csr.html': {size: 5607, hash: 'edbd3d46d1aaf58a324075a198f26c3b8c1aa030b56e47f7cbe7f2cdb20c8a97', text: () => import('./assets-chunks/index_csr_html.mjs').then(m => m.default)},
+    'index.server.html': {size: 6120, hash: 'd0f9acd58ae2561acdb41a04d306def8a99545609be5c5bfd7f52b7a45557b99', text: () => import('./assets-chunks/index_server_html.mjs').then(m => m.default)},
+    'index.html': {size: 18574, hash: 'cc7fa08d30b73c7e9623453e524a622aa91b77982d6a57f3effc1e98da1b2a71', text: () => import('./assets-chunks/index_html.mjs').then(m => m.default)},
+    'about/index.html': {size: 16766, hash: 'dc587de02a9f60194e225631c3fad8ecbd241390025d32164974d2607c0f0793', text: () => import('./assets-chunks/about_index_html.mjs').then(m => m.default)},
+    'contact/index.html': {size: 16692, hash: '7d4a35b1b4beb43f0d551bcd7fa3917c19aa183ffd4734d5db7a9f0a0adb59f6', text: () => import('./assets-chunks/contact_index_html.mjs').then(m => m.default)},
+    'gallery/index.html': {size: 16411, hash: '029829384e2d6f50b9610c546032004213f58aec2e6a63608f913c1ba777002d', text: () => import('./assets-chunks/gallery_index_html.mjs').then(m => m.default)},
+    'amenities/index.html': {size: 16313, hash: '08da6dec5e952ef5783759a7c3f45b4ed8ea6f66bf2bf543c13c3a4a08cb6575', text: () => import('./assets-chunks/amenities_index_html.mjs').then(m => m.default)},
     'styles-5INURTSO.css': {size: 0, hash: 'menYUTfbRu8', text: () => import('./assets-chunks/styles-5INURTSO_css.mjs').then(m => m.default)}
   },
 };

@@ -3,7 +3,7 @@ export default `<!doctype html>
 <head><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
   <meta charset="utf-8">
   <title>TapobanResort</title>
-  <base href="/jasbirs-work.github.io/">
+  <base href="/tapoban-resort/">
   <meta name="description" content="Tapoban Resort - a nature escape in Tilason. Book cottages, activities and more.">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">

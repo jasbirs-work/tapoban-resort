@@ -1,9 +1,9 @@
 {
   "routes": {
-    "/jasbirs-work.github.io": {},
-    "/jasbirs-work.github.io/about": {},
-    "/jasbirs-work.github.io/amenities": {},
-    "/jasbirs-work.github.io/contact": {},
-    "/jasbirs-work.github.io/gallery": {}
+    "/tapoban-resort": {},
+    "/tapoban-resort/about": {},
+    "/tapoban-resort/amenities": {},
+    "/tapoban-resort/contact": {},
+    "/tapoban-resort/gallery": {}
   }
 }

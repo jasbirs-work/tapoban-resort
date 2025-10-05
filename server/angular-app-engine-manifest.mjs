@@ -1,6 +1,6 @@
 
 export default {
-  basePath: '/jasbirs-work.github.io',
+  basePath: '/tapoban-resort',
   supportedLocales: {
   "en-US": ""
 },
