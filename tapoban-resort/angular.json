@@ -37,7 +37,7 @@
             "ssr": {
               "entry": "src/server.ts"
             },
-            "baseHref": "https://jasbirs-work.github.io/tapoban-resort/"
+            "baseHref": "/tapoban-resort/"
           },
           "configurations": {
             "production": {
