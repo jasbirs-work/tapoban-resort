@@ -12,6 +12,6 @@ export default `<!doctype html>
 <link rel="stylesheet" href="styles-5INURTSO.css"></head>
 <body ngcm="">
   <app-root></app-root>
-<link rel="modulepreload" href="chunk-YPOYH5GE.js"><link rel="modulepreload" href="chunk-CBN6JV5D.js"><script src="polyfills-5CFQRCPP.js" type="module"></script><script src="main-IGFU4XB2.js" type="module"></script></body>
+<link rel="modulepreload" href="chunk-YPOYH5GE.js"><link rel="modulepreload" href="chunk-CBN6JV5D.js"><script src="polyfills-5CFQRCPP.js" type="module"></script><script src="main-MR4WZZRL.js" type="module"></script></body>
 </html>
 `;
